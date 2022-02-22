@@ -1,5 +1,5 @@
 
-  if (window.screen.width >= 768) {
+  // if (window.screen.width >= 768) {
     function onEntry(entry) {
         entry.forEach(change => {
           if (change.isIntersecting) {
@@ -28,4 +28,4 @@
       for (let elm of elementsTop) {
         observer.observe(elm);
       }
-  }
+  // }

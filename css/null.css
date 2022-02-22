@@ -14,7 +14,7 @@ a:focus,a:active{outline: none;}
 
 nav,footer,header,aside{display: block;}
 
-html,body{
+html,body{	
 	background-color: #fff;
 	color: #263238;
 	height: 100%;
@@ -31,6 +31,7 @@ html,body{
 body.lock {
 	overflow: hidden;
 }
+
 input,button,textarea{font-family:inherit;}
 
 input::-ms-clear{display: none;}
