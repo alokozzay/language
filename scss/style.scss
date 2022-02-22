@@ -2,6 +2,7 @@
     max-width: 1340px;
     margin: 0 auto;
     padding: 0 15px;
+    overflow:hidden;
 }
 .header {
     margin-top: 35px;
@@ -343,6 +344,7 @@
     }
 }
 
+// бургер меню.
 .mobile-btn {
     position: relative;
     height: 18px;
@@ -385,7 +387,7 @@
     left: -2px;
 }
 
-// @media only screen and (min-width: 768px) {
+// анимация блоков.
     .item-anim-left {
         transform: translate(-60%, 0);
         opacity: 0;
@@ -422,7 +424,8 @@
         transform: scale(1);
         opacity: 1;
     }
-// }
+// конец анимации блоков.
+
 @media only screen and (max-width: 1200px) {
     .main__img {
         width: 450px;
@@ -587,6 +590,9 @@
 @media only screen and (max-width: 767px) {
     .mobile-btn {
         display: block;
+    }
+    a:visited {
+        color: #fff;
     }
     .header  {
         margin-top: 15px;
