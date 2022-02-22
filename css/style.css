@@ -652,7 +652,7 @@
     display: block;
   }
 
-  a:visited {
+  .header__link {
     color: #fff;
   }
 
